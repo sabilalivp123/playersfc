@@ -1,0 +1,111 @@
+:root {
+  --navy: #0d2b4a;
+  --gold: #b08a2e;
+  --cream: #f5f4f0;
+  --white: #ffffff;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: var(--navy);
+  background: var(--cream);
+  line-height: 1.6;
+}
+
+.hero {
+  background: linear-gradient(180deg, var(--navy), #0b2137);
+  color: var(--white);
+  padding: 24px 24px 80px;
+}
+
+.nav {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav .brand {
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--gold);
+}
+
+.nav .links a {
+  color: var(--white);
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 0.95rem;
+}
+
+.hero-content {
+  max-width: 1100px;
+  margin: 40px auto 0;
+  text-align: center;
+}
+
+.logo {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  margin-bottom: 16px;
+}
+
+.hero h1 {
+  font-size: 2.4rem;
+  margin-bottom: 8px;
+}
+
+.hero p {
+  opacity: 0.9;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 22px;
+  background: var(--gold);
+  color: var(--navy);
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 60px 24px;
+}
+
+.section h2 {
+  margin-bottom: 16px;
+  color: var(--navy);
+}
+
+.alt {
+  background: #ffffff;
+}
+
+.card-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-top: 16px;
+}
+
+.card {
+  background: var(--white);
+  border: 1px solid #e6e0d4;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.footer {
+  text-align: center;
+  padding: 24px;
+  color: #5b6b7a;
+}
